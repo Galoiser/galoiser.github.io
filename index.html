@@ -2,6 +2,10 @@
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
+    <!-- 1. Declare UTF-8 first so crawlers know your character encoding -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- 2. JSON-LD structured data for “Person” goes here -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -9,10 +13,8 @@
       "name": "Nachuan Yang",
       "url": "https://galoiser.github.io/",
       "sameAs": [
-        "https://www.linkedin.com/in/nachuan-yang",
-        "https://scholar.google.com/citations?user=XXXX",
-        "https://github.com/Galoiser",
-        "https://twitter.com/your_twitter_handle"
+        "https://scholar.google.com/citations?user=41A6FssAAAAJ&hl=en",
+        "https://apps.ualberta.ca/directory/person/nachuan1",
       ],
       "jobTitle": "Postdoctoral Fellow",
       "affiliation": {
@@ -21,9 +23,14 @@
       }
     }
     </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Nachuan Yang</title>
-    <meta name="description" content="Nachuan Yang’s personal website" />
+
+    <!-- 3. Page title (include full name “Nachuan Yang”) -->
+    <title>Nachuan Yang – Personal Homepage</title>
+
+    <!-- 4. Meta description in English, mentioning name and purpose -->
+    <meta name="description" content="Personal website of Nachuan Yang, Postdoctoral Fellow at the University of Alberta. Projects, publications, and contact information." />
+
+    <!-- 5. Link to your CSS file (if any) -->
     <link rel="stylesheet" href="jemdoc.css" type="text/css" />
   </head>
   
